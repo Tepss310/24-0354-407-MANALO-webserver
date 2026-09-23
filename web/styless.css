@@ -1,0 +1,83 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 600px;
+    margin: 40p auto;
+    padding: 0 20px;
+    background-color: #f9f9fb;
+    line-height: 1.6;
+}
+
+nav{
+    margin-bottom: 24px;
+}
+
+nav a{
+    color: #0066c0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2rem;
+    color: #111111;
+    margin-bottom: 4px;
+}
+
+h2{
+    font-size: 1.35rem;
+    color: #444444;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+
+h3{
+    font-size: 1.1rem;
+    color: #666666;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+h4{
+    margin-bottom: 2px;
+    color: #444444;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 24px 0;
+}
+
+main h2, body > h2:nth-of-type(2){
+    font-size: 1.4rem;
+    color: #111111;
+}
+
+ul{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 4px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #555555;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 16px;
+}
